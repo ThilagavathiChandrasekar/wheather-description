@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+}
+h1{ 
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #b393d3;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #957dad,
+               1px 2px 0px #957dad,
+               1px 3px 0px #957dad,
+               1px 4px 0px #957dad,
+               1px 5px 0px #957dad,
+               1px 6px 0px #957dad,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
+               font-size: 70px;
+               font-weight: 600;
+               font-family: 'Roboto', sans-serif;
+}
+.app{
+    color: rgb(248, 153, 153);
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+span{
+    font-weight: bold;
+}
+button{
+    width: 250px;
+    text-align: center;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 40px;
+    background-image: linear-gradient(to right, #eee1e5, #ebcdd4,rgb(221, 158, 158));
+    border-color: #ebcdd4;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+p{
+    margin-left: 80px;
+    padding-right: 150px;
+}
+li{
+    margin-left: 80px;
+    list-style-type:square;
+    margin-top: 10px;
+}
+.src, .live{
+    background: repeating-radial-gradient(circle, #c3ecd5, #eaf2b6, white 100%);
+    width: 160px;
+    height: 50px;
+}
+.src-live{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+.feature-content{
+    margin-right: 145   px;
+}
+@media (max-width: 600px) {
+    body{
+        text-align: justify;
+    }
+   h1{ 
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #b393d3;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #957dad,
+                1px 2px 0px #957dad,
+                1px 3px 0px #957dad,
+                1px 4px 0px #957dad,
+                1px 5px 0px #957dad,
+                1px 6px 0px #957dad,
+                1px 10px 5px rgba(16, 16, 16, 0.5),
+                1px 15px 10px rgba(16, 16, 16, 0.4),
+                1px 20px 30px rgba(16, 16, 16, 0.3),
+                1px 25px 50px rgba(16, 16, 16, 0.2);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.app{
+    color: rgb(248, 153, 153);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    width: 180px;
+    font-weight: 500;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-image: linear-gradient(to right, #eee1e5, #ebcdd4,rgb(221, 158, 158));
+    border-color: #ebcdd4;
+    margin-top: 30px;
+}
+p , .feature-content{
+    margin-left: 35px;
+    margin-right: 10px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    list-style-type:square;
+}
+.src, .live{
+    background: repeating-radial-gradient(circle, #c3ecd5, #eaf2b6, white 100%);
+    width: 100px;
+    height:40px;
+    font-size: 13px;
+}
+span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.src-live{
+    padding-top: 10px;
+}
+
+}
