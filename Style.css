@@ -48,6 +48,16 @@ button{
     margin-top: 30px;
     margin-bottom: 10px;
 }
+.heading{
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+    border: 1px solid;
+    padding: 20px;
+    background-image: linear-gradient(to right, #eee1e5, #ebcdd4,rgb(221, 158, 158));
+    border-color: #ebcdd4;
+    border-radius: 12px;
+}
 p{
     margin-left: 80px;
     padding-right: 150px;
